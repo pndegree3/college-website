@@ -15,7 +15,7 @@
   </script>
 
   <style>
-    body { font-family: Arial; margin: 0; padding: 0; background: #f9f9f9; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
     header { background: #2e3b4e; color: white; padding: 20px; text-align: center; }
     section { padding: 20px; }
     .notice-board {
@@ -25,7 +25,7 @@
       margin: 10px 20px;
       border: 1px solid #ffeeba;
       border-radius: 10px;
-      max-height: 150px;
+      max-height: 200px;
       overflow: hidden;
       position: relative;
     }
@@ -35,13 +35,13 @@
       text-align: center;
     }
     .scrolling-notices {
-      height: 100px;
+      height: 150px;
       overflow: hidden;
       position: relative;
     }
     .notices {
       position: absolute;
-      animation: scroll-up 10s linear infinite;
+      animation: scroll-up 15s linear infinite;
     }
     @keyframes scroll-up {
       0% { top: 100%; }
@@ -54,7 +54,18 @@
       margin: 10px 0;
       box-shadow: 0 0 10px #ddd;
     }
-    footer { background: #2e3b4e; color: white; text-align: center; padding: 10px; }
+    .gallery img {
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #2e3b4e;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
@@ -71,26 +82,26 @@
   <!-- 🔔 NOTICE BOARD START -->
   <section class="notice-board">
     <h3>📢 Notice Board</h3>
-  <div class="scrolling-notices">
-  <div class="notices">
-    <p>🔸 <a href="Quotation Call Notice.pdf" target="_blank">Click here to view Quotation Call Notice (PDF)</a></p>
-    <p>🔸 Admission for B.Sc. 1st year starts from 20th June 2025</p>
-    <p>🔸 Semester exams begin from 5th July 2025</p>
-    <p>🔸 College will remain closed on 15th August (Independence Day)</p>
-    <p>🔸 Scholarship form submission deadline: 30th July 2025</p>
-    <p>🔸 Practical exams from 10th July to 15th July</p>
-  </div>
-</div>
-
+    <div class="scrolling-notices">
+      <div class="notices">
+        <p>🔸 <a href="Quotation Call Notice.pdf" target="_blank">Click here to view Quotation Call Notice (PDF)</a></p>
+        <p>🔸 Admission for B.Sc. 1st year starts from 20th June 2025</p>
+        <p>🔸 Semester exams begin from 5th July 2025</p>
+        <p>🔸 College will remain closed on 15th August (Independence Day)</p>
+        <p>🔸 Scholarship form submission deadline: 30th July 2025</p>
+        <p>🔸 Practical exams from 10th July to 15th July</p>
+      </div>
     </div>
   </section>
   <!-- 🔔 NOTICE BOARD END -->
 
+  <!-- 📘 ABOUT COLLEGE -->
   <section>
     <h2>About the College</h2>
-    <p>Pabitranagar Degree Mahavidyalaya College is a reputed institution located on National Highway 23, Parabil, Talcher. We provide quality undergraduate education in Science and Arts.The Pabitranager Mahavidyalaya has been a well-known name among institutes since the year 1996 With Full Time courses available in its diverse collection, students have plenty of specialisations to choose from within B.Sc. and BA.</p>
+    <p>Pabitranagar Degree Mahavidyalaya College is a reputed institution located on National Highway 23, Parabil, Talcher. We provide quality undergraduate education in Science and Arts. The Pabitranagar Mahavidyalaya has been a well-known name among institutes since the year 1996. With full-time courses available in its diverse collection, students have plenty of specialisations to choose from within B.Sc. and B.A.</p>
   </section>
 
+  <!-- ☎️ CONTACT DETAILS -->
   <section class="contact">
     <h3>Contact Details</h3>
     <p><strong>Address:</strong> National Highway 23, Pabitra Nagar, Parabil, Talcher, Odisha - 759100</p>
@@ -98,12 +109,44 @@
     <p><strong>Email:</strong> pndegreecollege3@gmail.com</p>
   </section>
 
+  <!-- ⏰ COLLEGE HOURS -->
   <section class="hours">
     <h3>College Hours</h3>
     <ul>
       <li>Monday - Saturday: 10:00 AM to 4:00 PM</li>
       <li>Sunday: Closed</li>
     </ul>
+  </section>
+
+  <!-- 📷 PHOTO GALLERY -->
+  <section>
+    <h2>📷 Photo Gallery</h2>
+    <div class="gallery" style="display: flex; flex-wrap: wrap;">
+      <img src="images/college_front.jpg" alt="College Front View" width="300">
+      <img src="P$.jpg.jpeg" alt="Classroom" width="300">
+      <img src="P1.jpeg" alt="Cultural Event" width="300">
+      <img src="P10.jpeg" alt="Cultural Event" width="300">
+      <img src="P11.jpeg" alt="Cultural Event" width="300">
+      <img src="P12.jpeg" alt="Cultural Event" width="300">
+      <img src="P13.jpeg" alt="Cultural Event" width="300">
+      <img src="P14.jpeg" alt="Cultural Event" width="300">
+      <img src="P15.jpeg" alt="Cultural Event" width="300">
+      <img src="P16.jpeg" alt="Cultural Event" width="300">
+      <img src="P17.jpeg" alt="Cultural Event" width="300">
+      <img src="P18.jpeg" alt="Cultural Event" width="300">
+      <img src="P19.jpeg" alt="Cultural Event" width="300">
+      <img src="P2.jpeg" alt="Cultural Event" width="300">
+      <img src="P20.jpeg" alt="Cultural Event" width="300">
+      <img src="P21.jpeg" alt="Cultural Event" width="300">
+      <img src="P3.jpeg" alt="Cultural Event" width="300">
+      <img src="P4.jpeg" alt="Cultural Event" width="300">
+      <img src="P5.jpeg" alt="Cultural Event" width="300">
+      <img src="P6.jpeg" alt="Cultural Event" width="300">
+      <img src="P7 (2).jpeg" alt="Cultural Event" width="300">
+      <img src="P7.jpeg" alt="Cultural Event" width="300">
+      <img src="P8.jpeg" alt="Cultural Event" width="300">
+      <img src="P9.jpeg" alt="Cultural Event" width="300">
+    </div>
   </section>
 
   <footer>
